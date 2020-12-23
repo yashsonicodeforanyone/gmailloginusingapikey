@@ -1,0 +1,247 @@
+/* ===== Buy and sell currency form CSS === */
+
+#tbl
+{
+	width:100%;
+	text-align:center;
+	border:1px solid #f1f1f1;
+}
+.data td, .data th
+{
+	padding:.65rem;
+}
+input[readonly],input[type=text] 
+{
+  font-size: 16px;
+  width:100%;
+  border-style:none;
+  border-bottom: 0.2rem solid ;
+  animation: 4s infinite bgcolorchange;
+  border-radius:6px;
+}
+
+@keyframes bgcolorchange {
+  0% {
+    border-bottom-color:black;
+  }
+  50%
+  { 
+    border-bottom-color: white;
+	background-color:#c1adad75;
+  }
+  100% {
+    border-bottom-color: black;
+  }
+}
+#rate,#rat,#country,#contry ,#tprice,#Tprice{
+	background-color:transparent!important;
+	border: none;
+	outline:none;
+}
+label {
+  font-size:80%;
+}
+.col-box{
+	right:0px;
+	margin-top:11%;
+	position:sticky;
+	z-index: 9;
+}
+.btn-mobile
+{position: sticky;
+  top: 13.5%;
+	display:none;
+	width:85%;
+	height:0px;
+	padding:0px;
+	margin-left:0px;
+	text-align:center;
+}
+.fa-times-circle
+{
+	float:right;
+	font-size:0px;
+	border-radius:50%;
+	box-shadow: 0px 0px 5px 0px black;
+}
+#box 
+{
+  position: sticky;
+  top: 20%;
+  background-color:#f2f2f24d;
+  width:85%;
+  height:350px;
+  padding: 10px;
+  font-size:16px;
+  transition: 1s;
+  border:3px inset #c5c3c3c7;
+  box-shadow: 0px 0px 6px 2px #625c5c;
+}
+#btn2
+{
+	text-align:center;
+	width:100%;
+}	
+#btn2 i
+{
+	text-align:center;
+	font-size:25px;
+	padding:18% 7%;
+	margin-bottom:20px;
+}
+#btn2 .btn-primary 
+{
+	background-color:#033f7e;
+	border-style:none;
+}
+ #buy , #sell
+{
+	border-radius:3px;
+	color:#fff;
+	margin-top:7px;
+	width:43%;
+	background-color:black;
+} 
+
+/* ----------Box-form CSS--------- */
+
+#buy-frm ,#sell-frm
+{
+padding:15px 5px;
+width:100%;
+}
+#submit , #sub_sell
+{
+	border-radius:3px;
+	color:#fff;
+	background-color:#013871;
+	border-style:none;
+	font-family:arial;
+}
+
+				/* ----------this for less 1200px display--------- */
+@media only screen and (max-width: 1200px) {
+#box 
+{
+  height:350px;
+  width:100%;
+}
+#buy-frm{padding:15px 5px;}
+#btn2 i
+{
+	padding:17% 7%;
+}
+
+}
+				/* ----------this for less 768px display--------- */
+				
+@media only screen and (max-width: 768px) {
+
+#tbl
+{
+ width:100%;
+ font-size:0.86rem;
+ cellspacing:15px;
+}
+.data td {font-size:0.90rem;}
+.btn-mobile
+{
+	width:106%;
+}
+#box 
+{
+  height:340px;
+  width:119%;
+  padding:5px 5px;
+  font-size:15px;
+  margin-left:-25px;
+}
+#btn2 i
+{
+	padding:20% 4%;
+}
+ #buy , #sell
+{
+	width:48%;
+} 
+#buy-frm , #sell-frm
+{
+padding:15px 0px;
+width:100%;
+} 
+input[readonly],input[type=text] 
+{
+  font-size: 15px;
+  width:110%;
+}
+#submit , #sub_sell
+{
+	pacdding:5px 2px;
+	font-size:18px;
+}
+}
+
+					/* ----------this for les 768px display--------- */
+					
+@media only screen and (max-width: 576px) {
+.data td, .data th
+{
+	padding:.50rem;
+}
+#tbl
+{
+	width:100%;
+ font-size:0.80rem;
+ cellspacing:15px;
+}
+#col-box{
+	width:60%;
+	left:39.8%;
+	margin-right:0px;
+	padding-right:0px;
+	z-index: 2000;
+}
+#error
+{
+	width:100%;
+	height:auto;
+	margin-top:-1005%;
+	border:1px solid red;
+}
+.btn-mobile
+{
+	width:88%;
+	height:30px;
+}
+.fa-times-circle
+{
+	font-size:35px;
+}
+#box
+{
+	background-color:white;
+	width:100%;
+	height:330px;
+	display:none;
+	padding:7px 3px;
+	z-index:2000;
+	box-shadow: 0px 0px 6px 3px #625c5c;
+}
+ #buy , #sell
+{
+	width:40%;
+} 
+#buy-frm , #sell-frm
+{
+padding:11px 0px;
+width:95%;
+} 
+.table-form1{margin-bottom:0px;}
+.table-form1 td{padding:5px 2px;}
+#submit, #sub_sell
+{
+	margin-left:3%;
+	font-size:18px;
+}
+
+}/*this for less 500 display*/
