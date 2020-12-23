@@ -40,8 +40,7 @@ CREATE TABLE `email` (
 --
 
 INSERT INTO `email` (`id`, `token`, `name`, `email`, `date`) VALUES
-(79, '5306791e71e5aa1553c97bb6eadc0e', 'yash soni', 'ysoni9919@gmail.com', '2020-10-17 12:23:46'),
-(80, '4e4f565944c960c70615a3578cf018', 'Online Free', 'onlinefree8888@gmail.com', '2020-10-17 12:26:48');
+(79, 'None', 'None', 'None', '2020-10-17 12:23:46');
 
 --
 -- Indexes for dumped tables

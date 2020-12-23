@@ -8,10 +8,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 // client id 
-$google_client->setClientId('673346798185-f2ov9itbg52993jqjtnhgtmuu1o3su3a.apps.googleusercontent.com');
+$google_client->setClientId('Enter client id for gmail');
 
 //api scret id  
-$google_client->setClientSecret('q7lCkG1D2W6w8aBY1Qy9q2iy');
+$google_client->setClientSecret('Enter the scret id for gmail');
 
 $google_client->setRedirectUri('http://localhost/task2/sign02in.php');
 
